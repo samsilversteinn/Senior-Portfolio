@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url("portfolio\ images/sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   }
+
+.navbar {
+    background-color: #8b8787;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.left-tab a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-tabs a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-tabs a:hover {
+    background-color: #555;
+}
+.sam{
+   font-size: 100px;
+    font-family: inria serif;
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+
+  .lines-container {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    position: relative;
+  }
+  .line {
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    height: 5px;
+    background-color: white;
+    opacity: 5.5; /* Adjust opacity if needed */
+    text-align: center;
+    padding-left: 50%;
+    
+  }
+ 
