@@ -33,13 +33,20 @@ body {
 .right-tabs a:hover {
     background-color: #555;
 }
-.sam{
-   font-size: 100px;
-    font-family: inria serif;
-    margin: auto;
-    text-align: center;
-    padding-top: 10%;
+
+.titletext {
     color: white;
+    font-size:125px;
+    font-family: inria serif;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(57, 11, 80);
+}
+.titletextt {
+    color: white;
+    font-size:125px;
+    font-family: inria serif;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(57, 11, 80);
 }
 
 
@@ -50,13 +57,58 @@ body {
   }
   .line {
     position: absolute;
-    bottom: 0;
     width: 30%;
     height: 5px;
     background-color: white;
     opacity: 5.5; /* Adjust opacity if needed */
     text-align: center;
-    padding-left: 50%;
-    
+    margin-left: 35%;
   }
- 
+  .para{
+    font-size:18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+  }
+  .container-fluid {
+    padding-top: 250px;
+}
+.years{
+    text-align:center;
+    font-size:35px;
+    color: white;
+    padding-top: 2%;
+}
+.title{
+    font-size:75px;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    font-family: inria serif;
+}
+.text-center{
+    font-size: 65px;
+    text-align: center; 
+    color: white;
+  }
+  .text-right{
+    text-align: center; 
+    font-size: 25px;
+    color: lightblue;
+    margin: 10px;
+    border:3px;
+    border-style:solid; 
+    border-color: white; 
+    padding: 1em;
+  }
+  img.shadow-filter:hover {
+      filter: drop-shadow(8px 8px 10px white);
+  }
+  .here{
+    font-size:25px;
+    color: white;
+  }
+  .arrow{
+    font-size: 35px;
+    color: white;
+  }
