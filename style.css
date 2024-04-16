@@ -2,13 +2,19 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-body {
+.body1 {
     background-image: url("portfolio\ images/sunset.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-   }
-
+}
+.body2 {
+    background-color: rgb(238, 120, 90);
+  }
+  .body3 {
+    background-image: url("portfolio\ images/red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .navbar {
     background-color: #8b8787;
     overflow: hidden;
