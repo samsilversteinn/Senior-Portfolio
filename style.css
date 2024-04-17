@@ -9,11 +9,20 @@ body {
 }
 .body2 {
     background-color: rgb(238, 120, 90);
-  }
-  .body3 {
+}
+.body3 {
     background-image: url("portfolio\ images/red.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.body4{
+  background-color: rgb(238, 120, 90);
+}
+.body5{
+  background-color: rgb(238, 120, 90);;
+}
+.body6{
+  background-color: rgb(238, 120, 90);;
 }
 .navbar {
     background-color: #8b8787;
