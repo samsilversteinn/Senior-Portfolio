@@ -18,11 +18,103 @@
             <a href="contact.html">Contact</a>
         </div>
         </div>
-        <h2 class="titletext">Work Throughout The Years</h2>
 
-        <p class="years"><a href="soph.html">Sophomore Year</p>
-        <p class="years"><a href="junior.html">Junior Year</p>
-        <p class="years"><a href="senior.html">Senior Year</p>
+
+         
+             
+              <a class=" shadow-filter" href="#options"
+                ></a
+              >
+              <div class="spacer"></div>
+            </div>
+          </section>
+          <section class="options-section text-center" id="options">
+            <div class="container px-4 px-lg-5">
+              <h2 class="titletext">Work Throughout The Years</h2>
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                  <div class="col-md-6 d-flex justify-content-center">
+                <div class="centerflipcards">
+      <div class="square-flip">
+        <div class='square' data-image="https://www.dmlights.com/medias/RGB-additieve-kleursysteem.png?context=bWFzdGVyfENvbnRlbnRJbWFnZXN8MTA3NTJ8aW1hZ2UvcG5nfENvbnRlbnRJbWFnZXMvaGZlL2gwOC85NjExMzQ1Mjk3NDM4LnBuZ3wzYzZlMDlmYTdkMjI0MTFlOWQ4ODZmNzA4OGVkYWE0MTMwYjUzZmQyNjY5NjI5Yzg0ZGY1MWNhYTcyZDY4NWE3">
+          <div class="square-container">
+            <div class="align-center"><img src="http://titanicthemes.com/files/flipbox/kallyas2.png" class="boxshadow" alt=""></div>
+
+          </div>
+          <div class="flip-overlay"></div>
+        </div>
+        <div class='square2' data-image="https://www.dmlights.com/medias/RGB-additieve-kleursysteem.png?context=bWFzdGVyfENvbnRlbnRJbWFnZXN8MTA3NTJ8aW1hZ2UvcG5nfENvbnRlbnRJbWFnZXMvaGZlL2gwOC85NjExMzQ1Mjk3NDM4LnBuZ3wzYzZlMDlmYTdkMjI0MTFlOWQ4ODZmNzA4OGVkYWE0MTMwYjUzZmQyNjY5NjI5Yzg0ZGY1MWNhYTcyZDY4NWE3">
+          <div class="square-container2">
+            <div class="align-center"></div>
+            <a href="soph.html" target="_blank" class="boxshadow kallyas-button">Soph Year</a>
+          </div>
+          <div class="flip-overlay"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+      <div class="col-md-6 d-flex justify-content-center">
+          <div class="centerflipcards">
+        <div class="square-flip">
+          <div class='square' data-image="https://www.seekpng.com/png/small/233-2333884_png-to-hex-color-hexagon-color-wheel-png.png">
+            <div class="square-container">
+              <div class="align-center"><img src="http://titanicthemes.com/files/flipbox/kallyas2.png" class="boxshadow" alt=""></div>
+            </div>
+            <div class="flip-overlay"></div>
+          </div>
+          <div class='square2' data-image="https://www.seekpng.com/png/small/233-2333884_png-to-hex-color-hexagon-color-wheel-png.png">
+            <div class="square-container2">
+              <div class="align-center"></div>
+              <a href="junior.html" target="_blank" class="boxshadow kallyas-button">Junior Year</a>
+            </div>
+            <div class="flip-overlay"></div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <div class="square-flip">
+        <div class='square' data-image="https://www.color-hex.com/palettes/2714.png">
+          <div class="square-container">
+            <div class="align-center"><img src="http://titanicthemes.com/files/flipbox/kallyas2.png" class="boxshadow" alt=""></div>
+          </div>
+          <div class="flip-overlay"></div>
+        </div>
+        <div class='square2' data-image="https://www.color-hex.com/palettes/2714.png">
+          <div class="square-container2">
+            <div class="align-center"></div>
+            <a href="senior.html" target="_blank" class="boxshadow kallyas-button">Senior Year</a>
+          </div>
+          <div class="flip-overlay"></div>
+        </div>
+      </div>
+    </div>
+      
+     
+    </div>
+    <script>
+      jQuery(document).ready(function($) {
+      
+        //Count nr. of square classes
+        var countSquare = $('.square').length;
+      
+        //For each Square found add BG image
+        for (i = 0; i < countSquare; i++) {
+          var firstImage = $('.square').eq([i]);
+          var secondImage = $('.square2').eq([i]);
+      
+          var getImage = firstImage.attr('data-image');
+          var getImage2 = secondImage.attr('data-image');
+      
+          firstImage.css('background-image', 'url(' + getImage + ')');
+          secondImage.css('background-image', 'url(' + getImage2 + ')');
+        }
+      
+      });
+      </script>
+      
+        
         
             
 
