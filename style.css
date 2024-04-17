@@ -105,6 +105,7 @@ body {
     font-size: 65px;
     text-align: center; 
     color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
   .text-right{
     text-align: center; 
@@ -123,7 +124,9 @@ body {
     font-size:25px;
     color: white;
   }
-  .arrow{
-    font-size: 35px;
+  .back{
+    font-size: 25px;
     color: white;
+    text-align: center;
+    padding-top: 10%;
   }
