@@ -431,5 +431,52 @@ body {
   .padding-toptext {
     padding-top: 45px;
   }
-  
-  
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.form-group textarea {
+    height: 100px;
+}
+.form-group button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(133, 133, 133)
+    color: #fff;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: rgb(57, 11, 80);
+    color: white
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    background-image: none;
+    padding: 20%;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: gray;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: gray
+}
