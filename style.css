@@ -480,3 +480,32 @@ body {
     font-size: 55px;
     color: gray
 }
+.footer {
+  background-color: #ECECEC;
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+
+}
+
+.footer ul a {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  color:black;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+  bottom: 10px;
+}
+
+.footer .credit {
+  text-align: center;
+  bottom: 10px;
+  right: 10px;
+  font-family: "Poppins", sans-serif;
+}
